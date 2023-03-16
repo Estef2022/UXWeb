@@ -1,0 +1,53 @@
+header {
+  margin-top: 0%;
+  overflow: hidden; 
+  
+}
+
+  .toolbar {
+    background-color: #081B21;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 60;
+
+  }
+
+  h1 {
+    margin: 6px 0;
+    margin-left: 20px;
+  }
+
+  img {
+    margin: 0px 0;
+    margin-left: 10px;
+    
+  }
+
+  .container text-center pb-5 {
+    margin: 6px 0;
+    margin-left: 10px;
+    margin-top: 0%;
+  }
+
+  .box{
+    margin: 0 auto;
+    background-color: white;
+    width: 610px;
+    height: 680px;
+    opacity: 90%;
+  }
+  
+  .vector{
+    margin: 5 auto;
+    width: 590px;
+    height: 680px;
+    opacity: 90%;
+  }
+
+  
+

@@ -1,30 +1,45 @@
-<div class="container text-center pb-5">
-  <img src="/assets/fondo.png"  style="background-image: url('/assets/fondo.png'); width:100%; height:100vh; min-height:0vh; min-width:0vh;position: absolute; right: 0; top: 0; z-index: -100; opacity: 10;"> 
-<div >
-    <div class="box">
-    <div class="vector">
-      <img  style="background-image: url('/assets/vector.png'); width:100%; height:100vh"></div>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="app.component.scss">
+  
+</head>
 
+<body>
 
-<header>
-      <div class="toolbar" role="banner">
-        <img
-          class="img-responsive"
-          margin="50px"
-          alt="logo"
-          width="40"
-          src="assets/logo.png"
-        />
-        <h1>ALARM UX</h1>
+	<div class="container">
+		<div class="login-box">
+      <img 
+      class="img-responsive"
+      margin="50px"
+      alt="logo"
+      width="40"
+      src="assets/logo.png"
+    />
+      <div class="vector">
+        <img  style="background-image: url('/assets/vector.png'); width:100%; height:100vh; display: block; margin: 0 auto"></div>
+  
+          <h2>Login</h2>  
+          <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <input type="submit" value="Login">
+          </form>
+        </div>
       </div>
-</header>
+		
+	
+</body>
+</html>
+
     
       
    
  
 
-  
-  <router-outlet></router-outlet>
   
   
  
